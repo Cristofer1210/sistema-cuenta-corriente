@@ -1,0 +1,10 @@
+@'
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.db
+*.db-shm
+*.db-wal
+'@ | Set-Content -Path .gitignore -Encoding utf8
